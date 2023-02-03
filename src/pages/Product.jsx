@@ -6,7 +6,7 @@ import '../css/product-detail.css';
 
 import { getProductsThunk } from '../store/slices/products.slice';
 
-import Gallery from '../Components/Product/Gallery';
+import Gallery from '../components/Product/Gallery'
 import ProductInfo from '../components/Product/ProductInfo';
 
 import History from '../components/History';
