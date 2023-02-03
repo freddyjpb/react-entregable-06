@@ -1,0 +1,72 @@
+.App {
+  padding: calc(8px + (16 - 8) * ((100vw - 350px) / (500 - 350)));
+}
+
+.products-container {
+  margin: calc(8px + (16 - 8) * ((100vw - 350px) / (500 - 350))) auto;
+  max-width: 1468px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: calc(8px + (16 - 8) * ((100vw - 350px) / (500 - 350)));
+}
+
+@media screen and (min-width: 500px) {
+  .App { padding: 16px; }
+
+  .products-container { gap: 16px; margin: 16px auto; }
+
+  .h1-autoresize--dark { font-size: 36px; }
+
+  .h2-autoresize--dark { font-size: 45px; }
+
+  .h3-autoresize--dark { font-size: 20px; }
+}
+
+/*border: 1px dashed blue;*/
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
+
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
