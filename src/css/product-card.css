@@ -94,7 +94,7 @@
     aspect-ratio: 1;
     border-radius: 50%;
     justify-self: end;
-    background-color: #f85555;
+    background-color: var(--interface-color);
     color: white;
     transition: filter 100ms ease;
  }

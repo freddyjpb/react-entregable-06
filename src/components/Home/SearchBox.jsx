@@ -23,12 +23,12 @@ const SearchBox = () => {
             <form className="input" onSubmit={handleSearch}>
                 <input 
                     type="text" 
-                    placeholder="What are you looking for?" 
+                    placeholder="What do you need to Buy?" 
                     value={search}
                     onChange={e => setSearch(e.target.value)}
                 />
                 <button>
-                    <i className="icon-search"></i>
+                    <i className='bx bx-search-alt-2'></i>
                 </button>
             </form>
             <button 

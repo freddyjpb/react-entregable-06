@@ -1,5 +1,4 @@
 .navbar{
-    background-color: aqua;
     height: 60px;
 }
 
@@ -18,7 +17,7 @@
 }
 
 .navbar nav .title{
-    color: var(--primary);
+    color: var(--interface-color);
     font-weight: 700;
     font-size: 1.5rem;
     flex: 1;
@@ -89,7 +88,7 @@
         font-size: 2rem;
     }
     .navbar nav{
-        border-bottom: 1px solid var(--light-gray);
+        border-bottom: 1px solid #aaa7;
     }
     .navbar{
         height: 70px;
@@ -98,7 +97,7 @@
         top: 70px;
     }
     .navbar nav .icon{
-        border-left: 1px solid var(--light-gray);
+        border-left: 1px solid #aaa7;
     }
 }
 

@@ -24,7 +24,6 @@ const Login = () => {
 
     const dispatch = useDispatch();
 
-
     const submit = data => {
         dispatch(setIsLoading(true));
         axios.post('https://e-commerce-api-v2.academlo.tech/api/v1/users/login', data)
@@ -44,16 +43,18 @@ const Login = () => {
 
             <div className="main-container">
                 <form className="login" onSubmit={handleSubmit(submit)}>
-                    <strong>Welcome! Enter your email and password to continue</strong>
+                    <strong>
+                        <p>Welcome ! ! !</p>
+                        Enter your email and password to Session begins</strong>
                     <p className='login-message'>{loginMessage}</p>
 
                     <div className="test-data">
-                        <b>Test data</b>
+                        <b>Student Data</b>
                         <div className="field">
-                            <i className='bx bx-envelope'></i>john@gmail.com
+                            <i className='bx bx-envelope'></i>freddyjpb@gmail.com
                         </div>
                         <div className="field">
-                            <i className='bx bx-lock'></i>john1234
+                            <i className='bx bx-lock'></i>freddy1234
                         </div>
                     </div>
 
